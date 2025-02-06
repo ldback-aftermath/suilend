@@ -2,7 +2,7 @@
 
 [move]
 version = 3
-manifest_digest = "E25F888B3CC57B28D0C772334DD30911CD5A1F9E4F24D8EC7733F5B434BF5012"
+manifest_digest = "016BD283D5B4D5D8F14B166439AF87305E1A972EB49307A6422BC749EDA67DA3"
 deps_digest = "F9B494B64F0615AED0E98FC12A85B85ECD2BC5185C22D30E7F67786BB52E507C"
 dependencies = [
   { id = "Pyth", name = "Pyth" },
@@ -58,6 +58,11 @@ dependencies = [
   { id = "SuiSystem", name = "SuiSystem" },
 ]
 
+[move.toolchain-version]
+compiler-version = "1.35.3"
+edition = "2024.beta"
+flavor = "sui"
+
 [[move.package]]
 id = "sprungsui"
 source = { local = "../sprungsui" }
@@ -65,8 +70,3 @@ source = { local = "../sprungsui" }
 dependencies = [
   { id = "Sui", name = "Sui" },
 ]
-
-[move.toolchain-version]
-compiler-version = "1.35.3"
-edition = "2024.beta"
-flavor = "sui"
