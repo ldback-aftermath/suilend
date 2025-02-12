@@ -16,7 +16,7 @@ subdir = "target_chains/sui/contracts"
 rev = "98e218c64bb75cf1350eb7b021e1ffcc3aedfd62"
 
 [dependencies.liquid_staking]
-git = "https://github.com/solendprotocol/liquid-staking.git"
+git = "git@github.com:ldback-aftermath/liquid-staking.git"
 subdir = "contracts"
 rev = "main"
 
@@ -26,4 +26,4 @@ local = "../sprungsui"
 [addresses]
 sui = "0x2"
 # suilend = "0x0"
-suilend = "0xf95b06141ed4a174f239417323bde3f209b972f5930d8521ea38a52aff3a6ddf"
+suilend = "0xd2a67633ccb8de063163e25bcfca242929caf5cf1a26c2929dab519ee0b8f331"
